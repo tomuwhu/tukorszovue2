@@ -2,8 +2,8 @@
     <div id=cont>
         <div id=app>
         <input v-model="s"
-               @keyup="szamol()"
-               placeholder="Szó / Szöveg"/>
+              @keyup="szamol()"
+              placeholder="Szó / Szöveg"/>
         <hr>
         <table v-if="mi">
             <tr><td class="szoveg"
@@ -37,8 +37,9 @@
         <div v-else>Ez tükörszó</div>
         </div>
         <hr>
-        <a href="/~tnemeth/examples/algoexamples/Tukorszo_forras.html">
-            A megoldás matematikai modelleje és forráskódja
+        <a href="https://github.com/tomuwhu/tukorszovue2/blob/master/src/App.vue"
+          target="_blank">
+            A megoldás forráskódja (GitHUB)
         </a>
     </div>
 </template>

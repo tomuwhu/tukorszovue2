@@ -1,11 +1,13 @@
 <template>
     <div id=cont>
         <div id=app>
+          <h1>Tükörszó készítő</h1>
         <input v-model="s"
               @keyup="szamol()"
               placeholder="Szó / Szöveg"/>
         <hr>
-        <table v-if="mi">
+        <div v-if="mi">
+        <table >
             <tr><td class="szoveg"
                     :colspan="s.length"
                     title="A törlendő karakterek piros mezőben, az előállított tükörszó zöldben."
@@ -34,6 +36,7 @@
                 </td>
             </tr>
         </table>
+        </div>
         <div v-else>Ez tükörszó</div>
         </div>
         <hr>

@@ -110,10 +110,15 @@ td {
     text-align: center;
     font-size: 15px;
     padding: 2px;
-    width:  17px;
-    height: 17px;
+    width:  23px;
+    height: 23px;
     box-shadow: 1px 1px 2px gray;
     border-radius: 6px;
+}
+td.o {
+    height: 23px;
+    background-color: azure;
+
 }
 td.z {
     background-color: rgb(235, 88, 98);
@@ -123,6 +128,7 @@ td.z {
 td.x {
     background-color: rgb(217, 252, 233);
     font-weight: bold;
+    box-shadow: 1px 1px 3px inset black;
 }
 td.szoveg {
     user-select: none;
